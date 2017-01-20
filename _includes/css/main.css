@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300');
+
+body{
+font-family: 'Hind', sans-serif;
+}
+
+
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
@@ -74,8 +81,7 @@ hr {
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
-  padding: 0 5%;
+
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300');
+
+body{
+font-family: 'Hind', sans-serif;
+font-size: 2rem;
+line-height: 2rem;
+}
+
+#logo_container{
+  text-align: center;
+}
+
+#logo_img{
+	height:20%;
+	width:20%;
+}
+
+#tag_line{
+	text-align: center;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+	margin-top: 20px;
+}
+
+
+.about_profile{
+	display:inline-block;
+	width: 49%;
+}
+
+#staff_titles{
+	font-size: 3.0rem;
+	line-height: 3.0rem;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.about_name{
+	font-size: 2.7rem;
+	line-height: 2.7rem;
+}
+
+.about_position{
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+
+}
+
+p{
+	margin: 0;
+	margin-top: 0;
+}
+
+.section{
+	padding-left: 30px;
+	padding-right: 30px;
+
+}

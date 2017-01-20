@@ -150,7 +150,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  }
 
 	.button:hover,
 	button:hover,
@@ -365,97 +365,12 @@ span.lineno {
 .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
+@import url('https://fonts.googleapis.com/css?family=Hind:300');
 
-/* -----------------------------------*/
-/* ----- 960px wide fancy grid! ----- */
-/* -----------------------------------*/
+body{
+font-family: 'Hind', sans-serif;
+}
 
-/* by tim o'brien, t413.com
- * based on getskeleton.com
- */
-
-
-/* ----- base grid----- */
-
-.container               { position: relative; width: 960px; margin: 0 auto; padding: 0; }
-.container .column       { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-.row                     { margin-bottom: 20px; }
-
-.container .small.column { width: 300px; }
-.container .half.column  { width: 460px; }
-.container .big.column   { width: 620px; }
-.container .full.column  { width: 940px; }
-
-
-/* ----- Tablet (Portrait) -- 768px ----- */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .container               { width: 768px; }
-
-    .container .small.column { width: 236px; }
-    .container .half.column  { width: 364px; }
-    .container .big.column   { width: 488px; }
-    .container .full.column  { width: 748px; }
-  }
-
-
-/* ----- Mobile (Portrait) ----- */
-  @media only screen and (max-width: 767px) {
-    .container                { width:  96%; }
-    .container .column        { margin:  1%; }
-
-    .container .small.column { width: 48%; }
-    .container .half.column  { width: 48%; }
-    .container .big.column   { width: 98%; }
-    .container .full.column  { width: 98%; }
-  }
-
-
-/* ----- Mobile (Landscape) -- 480px ----- */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container                { width:  92%; }
-    .container .column        { margin:  2%; }
-
-    .container .small.column { width: 46%; }
-    .container .half.column  { width: 46%; }
-    .container .big.column   { width: 96%; }
-    .container .full.column  { width: 96%; }
-  }
-
-
-
-/* ----- Clearing ----- */
-
-  /* Self Clearing Goodness */
-  .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-  /* Use clearfix class on parent to clear nested columns,
-  or wrap each row of columns in a <div class="row"> */
-  .clearfix:before,
-  .clearfix:after,
-  .row:before,
-  .row:after {
-    content: '\0020';
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0; }
-  .row:after,
-  .clearfix:after {
-    clear: both; }
-  .row,
-  .clearfix {
-    zoom: 1; }
-
-  /* You can also use a <br class="clear" /> to clear columns */
-  .clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
 
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
@@ -508,10 +423,34 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-intro { border-color: #f8f8f8; }
-  #intro { background-color: #f8f8f8 !important; color: #111111; }
-  #intro a { color: #111111; }
-  #intro .sectiondivider { color: #f8f8f8; }
+  nav .p-contact { border-color: red; }
+  #contact { background-color: red !important; color: #111111; }
+  #contact a { color: #111111; }
+  #contact .sectiondivider { color: red; }
+
+  
+  
+  
+  nav .p-tools { border-color: #49a7e9; }
+  #tools { background-color: #49a7e9 !important; color: #111111; }
+  #tools a { color: #111111; }
+  #tools .sectiondivider { color: #49a7e9; }
+
+  
+  
+  
+  nav .p-team { border-color: grey; }
+  #team { background-color: grey !important; color: #111111; }
+  #team a { color: #111111; }
+  #team .sectiondivider { color: grey; }
+
+  
+  
+  
+  nav .p-welcome { border-color: red; }
+  #welcome { background-color: red !important; color: #111111; }
+  #welcome a { color: #111111; }
+  #welcome .sectiondivider { color: red; }
 
 
 
@@ -563,8 +502,7 @@ hr {
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
-  padding: 0 5%;
+
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
@@ -845,3 +783,62 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Hind:300');
+
+body{
+font-family: 'Hind', sans-serif;
+font-size: 2rem;
+line-height: 2rem;
+}
+
+#logo_container{
+  text-align: center;
+}
+
+#logo_img{
+	height:20%;
+	width:20%;
+}
+
+#tag_line{
+	text-align: center;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+	margin-top: 20px;
+}
+
+
+.about_profile{
+	display:inline-block;
+	width: 49%;
+}
+
+#staff_titles{
+	font-size: 3.0rem;
+	line-height: 3.0rem;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.about_name{
+	font-size: 2.7rem;
+	line-height: 2.7rem;
+}
+
+.about_position{
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+
+}
+
+p{
+	margin: 0;
+	margin-top: 0;
+}
+
+.section{
+	padding-left: 30px;
+	padding-right: 30px;
+
+}

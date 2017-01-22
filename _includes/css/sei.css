@@ -23,9 +23,10 @@ line-height: 2rem;
 }
 
 
-.about_profile{
+.staff_profile{
 	display:inline-block;
-	width: 49%;
+	width: 32%;
+	vertical-align: top;
 }
 
 #staff_titles{
@@ -36,7 +37,7 @@ line-height: 2rem;
 
 }
 
-.about_name{
+.staff_name{
 	font-size: 2.7rem;
 	line-height: 2.7rem;
 }
@@ -46,6 +47,23 @@ line-height: 2rem;
 	line-height: 2.5rem;
 
 }
+
+#board_profiles{
+	position: relative;
+}
+
+.board_profile{
+	display:inline-block;
+	width: 19%;
+	height: 20%;
+	vertical-align: top;
+}
+
+.board_name{
+	font-size: 1.7rem;
+	line-height: 1.7rem;
+}
+
 
 p{
 	margin: 0;
